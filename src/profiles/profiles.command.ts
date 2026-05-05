@@ -4,6 +4,7 @@ import { ProfilesGetCommand } from './profiles-get.command';
 import { ProfilesSearchCommand } from './profiles-search.command';
 import { ProfilesCreateCommand } from './profiles-create.command';
 import { ProfilesExportCommand } from './profiles-export.command';
+import { ProfilesUploadCommand } from './profiles-upload.command';
 
 @Command({
   name: 'profiles',
@@ -14,6 +15,7 @@ import { ProfilesExportCommand } from './profiles-export.command';
     ProfilesSearchCommand,
     ProfilesCreateCommand,
     ProfilesExportCommand,
+    ProfilesUploadCommand,
   ],
 })
 export class ProfilesCommand extends CommandRunner {

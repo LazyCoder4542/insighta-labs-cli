@@ -8,6 +8,7 @@ import { ProfilesGetCommand } from './profiles/profiles-get.command';
 import { ProfilesSearchCommand } from './profiles/profiles-search.command';
 import { ProfilesCreateCommand } from './profiles/profiles-create.command';
 import { ProfilesExportCommand } from './profiles/profiles-export.command';
+import { ProfilesUploadCommand } from './profiles/profiles-upload.command';
 
 @Module({
   providers: [
@@ -20,6 +21,7 @@ import { ProfilesExportCommand } from './profiles/profiles-export.command';
     ProfilesSearchCommand,
     ProfilesCreateCommand,
     ProfilesExportCommand,
+    ProfilesUploadCommand,
   ],
 })
 export class AppModule {}
